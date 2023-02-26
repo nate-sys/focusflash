@@ -1,17 +1,18 @@
 # Focusflash
-[Flashfocus](https://github.com/fennerm/flashfocus), but in Rust.
-
+[Flashfocus](https://github.com/fennerm/flashfocus), but in Rust.  
+  
 ![Demo](assets/demo.gif)
-
+  
 ## Building from Source
 ```sh
 cargo install --git https://github.com/nate-sys/focusflash
 ```
 
 ## How it works
-`focusflash` is a program only does 2 things:
-    - Gets the active/focused Xorg window 
-    - Overlays a new, blank window on top of it for 100ms
+`focusflash` is a program only does 2 things:  
+- Gets the active/focused Xorg window 
+- Overlays a new, blank window on top of it for 100ms
+  
 
 In order to achieve the intended functionality you see in the demo gif above, you must set it up to be invoked when you switch windows. 
 
@@ -26,6 +27,7 @@ super + {_,shift + }{h,j,k,l}
 
 # ...
 ```
+
 ### Other setups
 `todo!("provide examples")`
 
