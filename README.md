@@ -1,7 +1,7 @@
 # Focusflash
 [Flashfocus](https://github.com/fennerm/flashfocus), but in Rust.
 
-![Demo](assets/demo.mp4.mov)
+![Demo](assets/demo.webm.mov)
 
 ## Building from Source
 ```sh
